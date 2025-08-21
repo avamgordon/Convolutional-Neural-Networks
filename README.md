@@ -8,7 +8,7 @@ The CNN architecture implemented is as follows in baseline(1).ipynb:
 - Softmax layer with 10 neurons for the output layer
 - Xavier initialization based on uniform distribution
 - Mini-batch gradient descent with momentum = 0.9 and mini batch size of 50
-- Early stopping iwth a cross-entropy loss function
+- Early stopping with cross-entropy loss function
 - Learning rate scheduler to adjust the learning rate by 10% every 10 epochs, starting with a learning rate of 0.05
 - Training for 100 epochs
 - An additional 3x3 max pooling layer after each convolutional layer, using a stride of 3 (added in baseline_pooling(1).ipynb)
