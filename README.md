@@ -11,5 +11,7 @@ The CNN architecture implemented is as follows in baseline(1).ipynb:
 - Early stopping with cross-entropy loss function
 - Learning rate scheduler to adjust the learning rate by 10% every 10 epochs, starting with a learning rate of 0.05
 - Training for 100 epochs
-- An additional 3x3 max pooling layer after each convolutional layer, using a stride of 3 (added in baseline_pooling(1).ipynb)
-- Adding in of dropout after each convolutional layer, using separate dropout rates of 0.25, 0.5, and 0.75, respectively (added in baseline_dropout(1).ipynb)
+
+The CNN architecture implemented in baseline_pooling(1).ipynb is the same as baseline(1).ipynb with an additional 3x3 max pooling layer after each convolutional layer, using a stride of 3. 
+
+The CNN architecture implemented in baseline_dropout(1).ipynb is the same as baseline(1).ipynb adding in dropout after each convolutional layer, using separate dropout rates of 0.25, 0.5, and 0.75, respectively. 
